@@ -1,6 +1,6 @@
 ĐỐI CHIẾU SAU CẬP NHẬT DRIVER V3
 Bản cá nhân: export_final_v3.zip; export_final.zip có cùng nội dung.
-Bản review: peer_export_final.zip, cùng mã G01 theo xác nhận của người dùng.
+Bản review: Nguyễn Thị Ngọc Mai, MSSV 2A202603188, cùng mã G01; file peer_export_final.zip theo xác nhận của người dùng.
 Bản cá nhân mới: 22 ảnh, 22 frame_meta, 0 lỗi, 0 cảnh báo.
 So sánh mới: 52 điểm khác trên 14 ảnh.
 Lịch sử đối chiếu v2 trong disagreement_log.csv có 55 dòng, 5 dòng có kết luận; bốn thay đổi mắt đã được đối chiếu trực tiếp với bản driver 3.zip.

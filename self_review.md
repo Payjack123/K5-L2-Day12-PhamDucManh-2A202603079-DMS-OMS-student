@@ -23,7 +23,7 @@ Cách tránh ở lần sau: phóng to vùng mắt, chỉnh brightness/contrast h
 
 ## 3. Một dòng review đã dẫn đến sửa nhãn
 
-Ở `D02.png`, thuộc tính `eye_left`, bản cá nhân ban đầu là `open`, bản review của Nguyễn Thị Ngọc Mai là `unknown`. Lịch sử đối chiếu ghi `verdict=peer`, quy tắc 4.5; bản driver mới đã đổi thành `unknown`.
+Ở `D02.png`, thuộc tính `eye_left`, bản cá nhân ban đầu là `open`, bản review của Nguyễn Thị Ngọc Mai (MSSV 2A202603188) là `unknown`. Lịch sử đối chiếu ghi `verdict=peer`, quy tắc 4.5; bản driver mới đã đổi thành `unknown`.
 
 Bài học từ ca này là dùng `unknown` khi không đủ chắc để đọc trạng thái mí và rà lại các cờ điểm thay vì xem cảnh báo như kết luận tự động về ảnh. Các khác biệt khác chưa chốt vẫn được giữ trong bảng đối chiếu mới.
 

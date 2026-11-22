@@ -4,6 +4,8 @@
 
 **MSSV:** 2A202603079
 
+**Người review:** Nguyễn Thị Ngọc Mai — MSSV 2A202603188.
+
 **Ngày cập nhật:** 22/11/2026
 
 **Bộ ảnh:** G01, gồm 16 ảnh OMS và 6 ảnh driver.
