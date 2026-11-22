@@ -1,0 +1,7 @@
+﻿frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,Ảnh IR-sim không còn thông tin màu như ảnh RGB cùng cảnh nhưng vẫn thấy được hình dạng nôi bên trái ảnh.,label,"Giữ nhãn infant_seat theo hình dạng; seat=rear_right theo vị trí ghế của xe, không dựa vào màu."
+S01_ir,IR_sim,Phần tựa lưng và lòng ghế trẻ em bên phải ảnh rõ hơn so với vùng tối trên ảnh RGB cùng cảnh.,child_seat.occupied,"Ở ảnh IR-sim, ghế trẻ em tại rear_left được ghi occupied=no; không suy thuộc tính của ảnh RGB chỉ từ ảnh IR."
+D01,real_IR,"Vùng mắt phải qua kính có phản xạ hoặc che khuất, không đọc rõ trạng thái mí và khó xác định điểm mắt.",eye_right,Bản v3 đã đổi open thành unknown; giữ cách xử lý điểm theo mức quan sát và mục 4.6.
+D02,real_IR,Phản xạ sáng trên tròng kính bên mắt trái che vùng khe mắt và mép mí.,eye_left,Bản v3 đã đổi open thành unknown vì không xác định chắc trạng thái mí.
+D02,real_IR,Các đốm phản xạ trên kính bên mắt phải làm khó quan sát trạng thái mắt và vị trí điểm mốc.,eye_right,Bản v3 đã đổi open thành unknown; không dùng độ sáng của đốm phản xạ để suy mắt mở hoặc nhắm.
+D03,real_IR,Người lái cúi đầu; vùng mắt và kính tối nên khó đọc mí mắt trái và xác định chính xác điểm cần đánh.,eye_left,Bản v3 đã đổi open thành unknown; mắt phải hiện cũng là unknown.
