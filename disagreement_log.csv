@@ -1,13 +1,13 @@
 ﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
-D01.png,face,eye_right,khác giá trị (IoU=0.87),open,unknown,,4.5,"Kiểm tra từng mắt: thấy khe mắt mở thì open, thấy mí khép thì closed, không phân biệt được thì unknown; kiểm tra đồng thời cờ face13."
+D01.png,face,eye_right,khác giá trị (IoU=0.87),open,unknown,peer,4.5,"Đã sửa eye_right từ open thành unknown trong bản driver 3.zip và export_final_v3.zip do vùng mắt tối, phản xạ kính hoặc che khuất khiến khó đọc trạng thái mí."
 D01.png,person,seatbelt,khác giá trị (IoU=0.96),unknown,worn_incorrect,,4.7,"Đối chiếu dây an toàn trên chính ảnh đó; chỉ chọn worn_correct/worn_incorrect/not_worn khi đủ rõ, nếu không thì unknown."
 D01.png,hand,on_wheel,khác giá trị (IoU=0.84),yes,no,,4.4-2 / 4.7,"Kiểm tra tay thuộc ai, trái/phải theo người và có thực sự chạm vô lăng hay không; tay rời vô lăng có thể là no."
 D01.png,face13,left_eye_outer.occluded,khác cờ,1,0,,4.6,"Đối chiếu từng điểm mặt, vị trí và cờ occluded/outside; chỉ chọn cờ phù hợp với điểm thực sự nhìn thấy hoặc bị che."
 D01.png,face13,left_eye_inner.occluded,khác cờ,1,0,,4.6,"Đối chiếu từng điểm mặt, vị trí và cờ occluded/outside; chỉ chọn cờ phù hợp với điểm thực sự nhìn thấy hoặc bị che."
 D01.png,face13,left_eye_upper.occluded,khác cờ,1,0,,4.6,"Đối chiếu từng điểm mặt, vị trí và cờ occluded/outside; chỉ chọn cờ phù hợp với điểm thực sự nhìn thấy hoặc bị che."
 D01.png,face13,left_eye_lower.occluded,khác cờ,1,0,,4.6,"Đối chiếu từng điểm mặt, vị trí và cờ occluded/outside; chỉ chọn cờ phù hợp với điểm thực sự nhìn thấy hoặc bị che."
-D02.png,face,eye_left,khác giá trị (IoU=0.93),open,unknown,,4.5,"Kiểm tra từng mắt: thấy khe mắt mở thì open, thấy mí khép thì closed, không phân biệt được thì unknown; kiểm tra đồng thời cờ face13."
-D02.png,face,eye_right,khác giá trị (IoU=0.93),open,unknown,,4.5,"Kiểm tra từng mắt: thấy khe mắt mở thì open, thấy mí khép thì closed, không phân biệt được thì unknown; kiểm tra đồng thời cờ face13."
+D02.png,face,eye_left,khác giá trị (IoU=0.93),open,unknown,peer,4.5,"Đã sửa eye_left từ open thành unknown trong bản driver 3.zip và export_final_v3.zip do vùng mắt tối, phản xạ kính hoặc che khuất khiến khó đọc trạng thái mí."
+D02.png,face,eye_right,khác giá trị (IoU=0.93),open,unknown,peer,4.5,"Đã sửa eye_right từ open thành unknown trong bản driver 3.zip và export_final_v3.zip do vùng mắt tối, phản xạ kính hoặc che khuất khiến khó đọc trạng thái mí."
 D02.png,face,gaze_zone,khác giá trị (IoU=0.93),road,other,,4.5,Kiểm tra hướng mắt và đầu để chọn gaze_zone; nếu không chắc thì other và ghi lý do. OMS chỉ yêu cầu box face.
 D02.png,face,glasses,khác giá trị (IoU=0.93),clear,sun,,4.5,Kiểm tra kính đang đeo; NIR có thể làm kính râm trông trong suốt. Không chắc loại kính thì unknown.
 D02.png,person,seatbelt,khác giá trị (IoU=0.77),unknown,worn_correct,,4.7,"Đối chiếu dây an toàn trên chính ảnh đó; chỉ chọn worn_correct/worn_incorrect/not_worn khi đủ rõ, nếu không thì unknown."
@@ -30,7 +30,7 @@ D02.png,face13,right_eye_lower.outside,khác cờ,0,1,,4.6,"Đối chiếu từn
 D02.png,face13,mouth_right.occluded,khác cờ,0,1,,4.6,"Đối chiếu từng điểm mặt, vị trí và cờ occluded/outside; chỉ chọn cờ phù hợp với điểm thực sự nhìn thấy hoặc bị che."
 D02.png,face13,lip_upper.occluded,khác cờ,0,1,,4.6,"Đối chiếu từng điểm mặt, vị trí và cờ occluded/outside; chỉ chọn cờ phù hợp với điểm thực sự nhìn thấy hoặc bị che."
 D02.png,face13,lip_lower.occluded,khác cờ,0,1,,4.6,"Đối chiếu từng điểm mặt, vị trí và cờ occluded/outside; chỉ chọn cờ phù hợp với điểm thực sự nhìn thấy hoặc bị che."
-D03.png,face,eye_left,khác giá trị (IoU=0.71),open,unknown,,4.5,"Kiểm tra từng mắt: thấy khe mắt mở thì open, thấy mí khép thì closed, không phân biệt được thì unknown; kiểm tra đồng thời cờ face13."
+D03.png,face,eye_left,khác giá trị (IoU=0.71),open,unknown,peer,4.5,"Đã sửa eye_left từ open thành unknown trong bản driver 3.zip và export_final_v3.zip do vùng mắt tối, phản xạ kính hoặc che khuất khiến khó đọc trạng thái mí."
 D03.png,face,gaze_zone,khác giá trị (IoU=0.71),road,lap,,4.5,Kiểm tra hướng mắt và đầu để chọn gaze_zone; nếu không chắc thì other và ghi lý do. OMS chỉ yêu cầu box face.
 D03.png,face13,left_eye_outer.occluded,khác cờ,1,0,,4.6,"Đối chiếu từng điểm mặt, vị trí và cờ occluded/outside; chỉ chọn cờ phù hợp với điểm thực sự nhìn thấy hoặc bị che."
 D03.png,face13,left_eye_outer.outside,khác cờ,0,1,,4.6,"Đối chiếu từng điểm mặt, vị trí và cờ occluded/outside; chỉ chọn cờ phù hợp với điểm thực sự nhìn thấy hoặc bị che."

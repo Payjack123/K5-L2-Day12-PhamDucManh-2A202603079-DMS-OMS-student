@@ -1,0 +1,57 @@
+{
+  "sources": [
+    {
+      "role": "OMS",
+      "path": "E:\\github\\K5-L2-Day12-PhamDucManh-2A202603079-DMS-OMS-student\\source_exports\\v2\\1.zip",
+      "sha256": "a82d55bcb4f372d0d1ee93376118474134ebd2600e9ad86c30ff6863666f65d8",
+      "images": 16
+    },
+    {
+      "role": "DMS",
+      "path": "C:\\Users\\Dell\\Documents\\Downloads\\3.zip",
+      "sha256": "a0f3261321e2fb8662e6c20631ebab32a82c7dd38b54c8bef02a0cd712965213",
+      "images": 6
+    }
+  ],
+  "images": 22,
+  "frame_meta": 22,
+  "errors": 0,
+  "warnings": 0,
+  "annotation_preserved": true,
+  "canonical_equals_v3": true,
+  "eye_changes": [
+    {
+      "image": "D01.png",
+      "field": "eye_left",
+      "before": "open",
+      "after": "unknown"
+    },
+    {
+      "image": "D01.png",
+      "field": "eye_right",
+      "before": "open",
+      "after": "unknown"
+    },
+    {
+      "image": "D02.png",
+      "field": "eye_left",
+      "before": "open",
+      "after": "unknown"
+    },
+    {
+      "image": "D02.png",
+      "field": "eye_right",
+      "before": "open",
+      "after": "unknown"
+    },
+    {
+      "image": "D03.png",
+      "field": "eye_left",
+      "before": "open",
+      "after": "unknown"
+    }
+  ],
+  "resolved_history_rows": 5,
+  "current_diff_rows": 52,
+  "schema_sha256": "4a3539327c16338d5b79107d3ebc724792700c7d06af3388c1eef4e628d39d14"
+}

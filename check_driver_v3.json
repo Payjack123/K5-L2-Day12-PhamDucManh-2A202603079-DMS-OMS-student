@@ -1,0 +1,12 @@
+{
+  "images": 6,
+  "with_frame_meta": 6,
+  "counts": {
+    "person": 6,
+    "hand": 12,
+    "face": 6,
+    "face13": 6,
+    "phone": 1
+  },
+  "issues": []
+}
