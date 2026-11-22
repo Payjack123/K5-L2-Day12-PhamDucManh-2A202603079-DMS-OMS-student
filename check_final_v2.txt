@@ -1,0 +1,18 @@
+File: export_final_v2.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=14, face=8, face13=6, hand=12, infant_seat=10, object=8, person=10, phone=1
+  [WARN] D01.png: eye_left=open nhưng cả 4 điểm left_eye_* đều bị che: không thấy mắt thì eye_left nên là unknown
+  [WARN] D01.png: eye_right=open nhưng cả 4 điểm right_eye_* đều bị che: không thấy mắt thì eye_right nên là unknown
+  [WARN] D02.png: eye_left=open nhưng cả 4 điểm left_eye_* đều bị che: không thấy mắt thì eye_left nên là unknown
+  [WARN] D02.png: eye_right=open nhưng cả 4 điểm right_eye_* đều bị che: không thấy mắt thì eye_right nên là unknown
+  [WARN] D03.png: eye_left=open nhưng cả 4 điểm left_eye_* đều bị che: không thấy mắt thì eye_left nên là unknown
+Kết quả: 0 lỗi, 5 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+GIẢI THÍCH CẢNH BÁO BỔ SUNG NGÀY 22/11/2026
+
+Giải thích D01.png eye_left: Vùng kính và bóng tối khiến khó xác định chính xác mép mí, khóe mắt. Một phần khe mắt vẫn nhìn thấy; cần rà từng điểm left_eye_* và bỏ cờ che khuất ở điểm thực sự nhìn thấy. Bản export hiện ghi open và cả 4 điểm occluded=1.
+Giải thích D01.png eye_right: Vùng mắt có phản xạ hoặc che khuất qua kính, ảnh tối làm khó đọc trạng thái mí và vị trí điểm cần đánh. Bản export hiện ghi open và cả 4 điểm outside=1; cần rà lại, dùng unknown nếu không phân biệt được mắt mở hay nhắm.
+Giải thích D02.png eye_left: Ảnh tối và phản xạ trên tròng kính che vùng mắt, khó xác định điểm cần đánh. Bản export hiện ghi open và cả 4 điểm occluded=1; cần rà lại trạng thái mắt, dùng unknown nếu không đọc được mí.
+Giải thích D02.png eye_right: Đốm phản xạ trên kính và vùng mắt tối khiến khó xác định khe mắt, mép mí và khóe mắt. Bản export hiện ghi open và cả 4 điểm occluded=1; không đủ căn cứ xác định mở hoặc nhắm thì dùng unknown.
+Giải thích D03.png eye_left: Tài xế cúi đầu, vùng mắt và kính tối nên khó xác định chính xác điểm cần đánh. Bản export hiện ghi open và cả 4 điểm occluded=1; cần rà lại trạng thái mắt và cờ điểm theo GUIDE 4.5–4.6.
+
+Các giải thích được bổ sung sau lần chạy kiểm tra. Kết quả của bản export vẫn là 0 lỗi, 5 cảnh báo; các thay đổi nhãn cần được thực hiện và lưu trên CVAT rồi export lại.

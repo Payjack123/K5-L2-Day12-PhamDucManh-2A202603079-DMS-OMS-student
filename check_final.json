@@ -1,0 +1,86 @@
+{
+  "images": 22,
+  "with_frame_meta": 22,
+  "counts": {
+    "infant_seat": 10,
+    "child_seat": 14,
+    "face": 8,
+    "person": 10,
+    "object": 8,
+    "hand": 12,
+    "face13": 6,
+    "phone": 1
+  },
+  "issues": [
+    {
+      "level": "WARN",
+      "image": "S01_ir.png",
+      "message": "infant_seat: seat=driver trên ảnh SVIRO (camera chỉ nhìn hàng ghế sau)"
+    },
+    {
+      "level": "WARN",
+      "image": "S01_rgb.png",
+      "message": "ảnh SVIRO là ảnh dựng: light nên là 'unknown'"
+    },
+    {
+      "level": "WARN",
+      "image": "S01_rgb.png",
+      "message": "infant_seat: seat=driver trên ảnh SVIRO (camera chỉ nhìn hàng ghế sau)"
+    },
+    {
+      "level": "WARN",
+      "image": "S02_rgb.png",
+      "message": "ảnh SVIRO là ảnh dựng: light nên là 'unknown'"
+    },
+    {
+      "level": "WARN",
+      "image": "S03_rgb.png",
+      "message": "ảnh SVIRO là ảnh dựng: light nên là 'unknown'"
+    },
+    {
+      "level": "WARN",
+      "image": "S04_rgb.png",
+      "message": "ảnh SVIRO là ảnh dựng: light nên là 'unknown'"
+    },
+    {
+      "level": "WARN",
+      "image": "S05_rgb.png",
+      "message": "ảnh SVIRO là ảnh dựng: light nên là 'unknown'"
+    },
+    {
+      "level": "WARN",
+      "image": "S06_rgb.png",
+      "message": "ảnh SVIRO là ảnh dựng: light nên là 'unknown'"
+    },
+    {
+      "level": "WARN",
+      "image": "S07_rgb.png",
+      "message": "ảnh SVIRO là ảnh dựng: light nên là 'unknown'"
+    },
+    {
+      "level": "WARN",
+      "image": "S08_rgb.png",
+      "message": "ảnh SVIRO là ảnh dựng: light nên là 'unknown'"
+    },
+    {
+      "level": "WARN",
+      "image": "D01.png",
+      "message": "eye_right=open nhưng cả 4 điểm right_eye_* đều bị che: không thấy mắt thì eye_right nên là unknown"
+    },
+    {
+      "level": "WARN",
+      "image": "D02.png",
+      "message": "eye_left=open nhưng cả 4 điểm left_eye_* đều bị che: không thấy mắt thì eye_left nên là unknown"
+    },
+    {
+      "level": "WARN",
+      "image": "D02.png",
+      "message": "eye_right=open nhưng cả 4 điểm right_eye_* đều bị che: không thấy mắt thì eye_right nên là unknown"
+    },
+    {
+      "level": "WARN",
+      "image": "D03.png",
+      "message": "eye_left=open nhưng cả 4 điểm left_eye_* đều bị che: không thấy mắt thì eye_left nên là unknown"
+    }
+  ]
+}
